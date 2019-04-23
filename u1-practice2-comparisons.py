@@ -1,7 +1,7 @@
 # Code originally from teamtreehouse.com
 # 
-# Unit 1 Practice 1:
-# MadLibs - Practice Input and Output
+# Unit 1 Practice 2:
+# FizzBuzz - Practice Comparisons
 
 name = input("Please enter your name:  ")
 number = input("Please enter a number:  ")
