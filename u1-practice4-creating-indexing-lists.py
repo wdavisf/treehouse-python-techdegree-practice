@@ -6,9 +6,9 @@
 # TODO Create an empty list to maintain the player names
 team = []
 
-# TODO Ask the user if they'd like to add players to the list.
+# TODO Ask the user if they'd like to add players to the list
 add_player = input("Would you like to add players to the team? (Yes/No): ")
-# If the user answers "Yes", let them type in a name and add it to the list.
+# If the user answers "Yes", let them type in a name and add it to the list
 
 while add_player.lower() == "yes":
     team.append(input("What's the new player's name?: "))
