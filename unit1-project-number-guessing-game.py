@@ -19,7 +19,6 @@ def start_game():
 			user_try = int(input("\nPick a number between 1 and 10: "))
 			if user_try < 1 or user_try > 10:
 				 print("\nWoops, your number must be between 1 and 10. Try again!")
-				 continue
 		except ValueError:
 			print("\nThe number must be an integer between 1 and 10. Try again!")
 		else:
