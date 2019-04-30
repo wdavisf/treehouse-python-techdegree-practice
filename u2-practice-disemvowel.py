@@ -15,6 +15,6 @@ def disemvowel(word):
     word = "".join(letters)
     return word
 
-word = input("Enter a word: ")
+word = input("Enter a word you wish to disemvowel: ")
 word = disemvowel(word)
 print(word)
